@@ -1,0 +1,72 @@
+*
+{
+    padding: 0%;
+        margin: 0;
+}
+html
+{
+ font-size: 62.5%; 
+ height: 100%;
+}
+body
+{
+    font-size: 1.6rem;
+    height: 200%;
+    background-color: rgb(148, 148, 255);
+}
+nav
+{
+    background-color: rgb(245, 245, 94);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 10rem;
+box-shadow: 0rem .2rem 1rem gray
+}
+.links
+{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Alkalami', serif;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    
+}
+.links a
+{
+margin-left: 6rem;
+}
+.links a:hover
+{
+    color: lightcoral;
+}
+figcaption
+{
+    color: white;
+    font-style: italic;
+    font-family: 'Alkalami', serif;
+    
+}
+figure
+{
+    background-color:lightcoral;
+    width: 20rem;
+    border-top-right-radius: 100%;
+    box-shadow: 2rem 2rem rgb(182, 83, 83);
+    border-bottom-left-radius: 50%;
+
+}
+img
+{
+    position: relative;
+    left: 2rem;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+main
+{
+    position: relative;
+    top: 10rem;
+    margin-left: 4rem;
+}
